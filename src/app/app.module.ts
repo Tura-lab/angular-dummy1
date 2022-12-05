@@ -7,11 +7,13 @@ import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
 import { TasksComponent } from './components/tasks/tasks.component';
+import { TaskItemComponent } from './components/task-item/task-item.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, ButtonComponent, TasksComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, ButtonComponent, TasksComponent, TaskItemComponent ],
   bootstrap:    [ AppComponent ]
 })
+
 export class AppModule { }
