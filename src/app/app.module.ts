@@ -10,7 +10,7 @@ import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, ButtonComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, ButtonComponent, Tasks ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
