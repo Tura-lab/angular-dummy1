@@ -1,4 +1,4 @@
-<div class="task">
+<div class="task" [ngClass]="{ reminder: task.reminder }">
   <div class="left-side">
     <h3>{{ task.text }}</h3>
     <p>{{ task.day }}</p>
